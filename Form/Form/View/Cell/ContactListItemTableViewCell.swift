@@ -31,7 +31,7 @@ class ContactListItemTableViewCell: UITableViewCell {
         super.awakeFromNib()
         
         ivProfileImage.circleImg()
-//        self.selectionStyle = .none
+        self.selectionStyle = .none
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
